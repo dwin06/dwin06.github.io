@@ -1,0 +1,72 @@
+body {
+    font-family:   Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: #012703d5;
+    color: #efe709;
+    padding: 20px 0;
+    text-align: center;
+    }
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    nav ul li{
+        display: inline;
+        margin: 0 10px;
+    }
+    nav ul li a {
+        color: #490d0d;
+        text-decoration: none;
+    }
+    
+    #about{
+        padding: 20px;
+        background: #072065;
+
+    }
+    #about{
+        margin-top: 0;
+    }
+
+    #portfolio{
+        padding: 20px;
+        background: #a81010;
+
+    }
+    #portfolio{
+        margin-top: 0;
+    }
+    
+    #contact{
+        padding: 20px;
+    }
+    form input, form textarea {
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 16px;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    form label{
+        margin-bottom: 5px;
+    }
+    form input{ type= "submit"} {
+        background: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
